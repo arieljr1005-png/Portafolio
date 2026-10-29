@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Focus · Demo de tareas</title>
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="demo.css">
+<script src="tareas.js" defer></script></head><body>
+<main class="demo-shell"><a href="../../index.html#proyectos" class="back-link">← Volver al portafolio</a>
+<p class="eyebrow">PROYECTO DE EJEMPLO / JAVASCRIPT</p>
+<h1>focus<span class="accent">.</span></h1>
+<p>Un paso a la vez. Organiza lo que quieres hacer hoy.</p>
+<form id="task-form" class="demo-form">
+<label for="task-input" class="sr-only">Nueva tarea</label>
+<input id="task-input" placeholder="¿Qué quieres hacer hoy?" maxlength="140" required>
+<button class="button primary">Añadir +</button></form>
+<div class="filters" role="group" aria-label="Filtrar tareas">
+<button class="filter active" data-task-filter="all" aria-pressed="true">Todas</button>
+<button class="filter" data-task-filter="pending" aria-pressed="false">Pendientes</button>
+<button class="filter" data-task-filter="done" aria-pressed="false">Completadas</button></div>
+<ul id="task-list" class="task-list"></ul>
+<p id="task-status" role="status"></p>
+<p class="example-note" id="storage-note">Tus tareas se guardan solo en este navegador cuando permite almacenamiento local.</p></main>
+</body></html>

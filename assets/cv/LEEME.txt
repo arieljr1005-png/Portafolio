@@ -1,0 +1,3 @@
+Coloca aquí tu currículum real en PDF, por ejemplo curriculum.pdf.
+En index.html busca data-document-label="Currículum" y cambia data-document="" por data-document="assets/cv/curriculum.pdf".
+Para que la descarga también funcione sin JavaScript, cambia href="#archivo-pendiente" por href="assets/cv/curriculum.pdf" y añade download al enlace.

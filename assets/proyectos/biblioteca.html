@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Entre líneas · Demo de biblioteca</title>
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="demo.css">
+<script src="biblioteca.js" defer></script></head><body>
+<main class="demo-shell"><a href="../../index.html#proyectos" class="back-link">← Volver al portafolio</a>
+<p class="eyebrow">PROYECTO DE EJEMPLO / CATÁLOGO LOCAL</p>
+<h1 class="serif">Entre líneas.</h1>
+<p>Tu próxima historia empieza aquí. Catálogo de ejemplo con obras de dominio público.</p>
+<label for="book-search">Buscar por título o autor</label>
+<input id="book-search" class="search-input" type="search" placeholder="Por ejemplo: Cervantes">
+<div class="filters" role="group" aria-label="Filtrar por género">
+<button class="filter active" data-genre="todos" aria-pressed="true">Todos</button>
+<button class="filter" data-genre="Novela" aria-pressed="false">Novela</button>
+<button class="filter" data-genre="Poesía" aria-pressed="false">Poesía</button>
+<button class="filter" data-genre="Teatro" aria-pressed="false">Teatro</button></div>
+<p id="book-status" role="status"></p>
+<div id="book-grid" class="book-grid"></div>
+</main>
+</body></html>

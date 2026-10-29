@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Portafolio personal y académico de Ariel: desarrollo web, proyectos, habilidades y formación.">
+  <meta name="color-scheme" content="light dark">
+  <title>Portafolio Personal</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ariel, inicio">AM-21<span>.</span></a>
+      <nav id="navegacion" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a><a href="#proyectos">Proyectos</a><a
+          href="#certificados">Certificados</a><a href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" id="theme-toggle" aria-label="Activar modo oscuro" aria-pressed="false"><span
+            aria-hidden="true">☾</span></button>
+        <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="navegacion"><span aria-hidden="true">☰</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="contenido">
+    <!-- PERSONALIZA: nombre, presentación y fotografía en esta sección. -->
+    <section id="inicio" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> JIMMY ARIEL MORÁN QUINDE · EN FORMACIÓN</p>
+        <h1>Hola, soy Ariel<span class="accent">.</span><br>Transformo ideas<br>en experiencias.</h1>
+        <p class="hero-description">Estudiante de Ingeniería en Ciencias de la Computación. Me gusta construir
+          interfaces claras, útiles y hechas con atención al detalle.</p>
+        <div class="button-group"><a class="button primary" href="#proyectos">Explorar proyectos <span
+              aria-hidden="true">↗</span></a><a class="button secondary" href="#archivo-pendiente" data-document=""
+            data-document-label="Currículum">Descargar CV <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><span class="small-line"></span> Curiosidad para aprender. Código para construir.</div>
+      </div>
+      <div class="hero-art" aria-label="Espacio para fotografía de perfil">
+        <div class="photo-frame"><img src="assets/images/perfil.jpeg"
+            alt="Ilustración de ejemplo para reemplazar por tu fotografía" width="560" height="640"></div>
+        <div class="floating-tag"><span class="code-symbol" aria-hidden="true">&lt;/&gt;</span>
+          <div>Diseñar. Desarrollar. Aprender.<small>Un proyecto a la vez.</small></div>
+        </div>
+        <span class="art-coordinate" aria-hidden="true">EST. 2026 / PORTAFOLIO PERSONAL</span>
+      </div>
+      <a href="#sobre-mi" class="scroll-cue">DESLIZA PARA CONOCERME <span aria-hidden="true">↓</span></a>
+    </section>
+    <div class="tech-strip" aria-label="Tecnologías destacadas">
+      <div class="container"><span>IDEAS CONSTRUIDAS CON</span>
+        <p>HTML5 <b>✳</b> CSS3 <b>✳</b> JavaScript <b>✳</b> Typescript <b>✳</b> React<b>✳</b> Git & GitHub</p>
+      </div>
+    </div>
+    <section id="sobre-mi" class="section container reveal">
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE MÍ</p>
+        <h2>La persona<br>detrás del <span class="serif">código.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="large-text">Me mueve la curiosidad de entender cómo funcionan las cosas y las ganas de hacerlas un
+            poco mejores.</p>
+          <p>Soy Jimmy Ariel Morán Quinde, estudiante de Ingeniería en Ciencias de la Computación. Estoy construyendo mi
+            camino en el desarrollo de software mediante proyectos académicos, cursos y práctica constante.</p>
+          <p>Me interesan el diseño de interfaces, la accesibilidad y la resolución de problemas. Mi objetivo es
+            participar en proyectos donde pueda aportar, aprender de otras personas y crear herramientas que tengan
+            sentido para quienes las usan.</p>
+          <p class="example-note"> Mi Perfil · Mis datos de acuerdo a mi historia.</p>
+        </div>
+        <div class="timeline">
+          <article><span>ACTUALMENTE</span>
+            <h3>Ingeniería en Ciencias de la Computación</h3>
+            <p>Universidad Católica Santiago de Guayaquil · Año de inicio: 2024 — Actualidad</p>
+          </article>
+          <article><span>MI ENFOQUE</span>
+            <h3>Desarrollo de software</h3>
+            <p>Desarrollo de aplicaciones web, diseño de interfaces intuitivas y creación de soluciones tecnológicas
+              utilizando HTML, CSS, JavaScript y otras herramientas de programación.</p>
+          </article>
+          <article><span>MI SIGUIENTE PASO</span>
+            <h3>Aprender construyendo</h3>
+            <p>Fortalecer mis conocimientos en programación, desarrollar proyectos cada vez más completos y adquirir
+              experiencia aplicando nuevas tecnologías para resolver problemas reales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades" class="section skills-section">
+      <div class="container reveal">
+        <div class="section-heading habilidades-heading">
+          <div>
+            <p class="eyebrow">02 / HABILIDADES</p>
+            <h2>Mi caja de <span class="serif">herramientas.</span></h2>
+          </div>
+          <p class="habilidades-descripcion">Tecnologías que exploro y pongo en práctica.<br>Siempre hay algo nuevo por aprender.</p>
+        </div>
+        <!-- Añade otra tarjeta siguiendo esta misma estructura. No son porcentajes de dominio. -->
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><span class="skill-icon"
+              aria-hidden="true">&lt;/&gt;</span>
+            <h3>Frontend</h3>
+            <p>De la estructura a la experiencia.</p>
+            <ul class="tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive</li>
+            </ul>
+          </article>
+          <article class="skill-card"><span class="skill-number">02</span><span class="skill-icon" aria-hidden="true">{
+              }</span>
+            <h3>Programación</h3>
+            <p>Lógica y código para resolver problemas.</p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Poo</li>
+            </ul>
+          </article>
+          <article class="skill-card"><span class="skill-number">03</span><span class="skill-icon"
+              aria-hidden="true">▤</span>
+            <h3>Bases de datos</h3>
+            <p>Diseño y gestión de información.</p>
+            <ul class="tags">
+              <li>Consultas SQL</li>
+              <li>Supabase</li>
+              <li>Oracle</li>
+            </ul>
+          </article>
+          <article class="skill-card"><span class="skill-number">04</span><span class="skill-icon"
+              aria-hidden="true">⌘</span>
+            <h3>Herramientas de Desarrollo</h3>
+            <p>Organización, colaboración y control del código.</p>
+            <ul class="tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </article>
+          <article class="skill-card"><span class="skill-number">05</span><span class="skill-icon"
+              aria-hidden="true">⌘</span>
+            <h3>Desarrollo de aplicaciones</h3>
+            <p>Construcción de soluciones mediante componentes y lógica.</p>
+            <ul class="tags">
+              <li>Interfaces</li>
+              <li>Formularios</li>
+              <li>Validaciones</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos" class="section container reveal">
+      <div class="section-heading horizontal">
+        <div>
+          <p class="eyebrow">03 / PROYECTO DESTACADO</p>
+          <h2>Aprendizaje en <span class="serif">acción.</span></h2>
+        </div>
+        <p>Una idea que toma forma.<br>Mi primer proyecto de desarrollo de software.</p>
+      </div>
+      <div class="projects-grid projects-featured">
+        <!-- Para añadir otro proyecto, duplica este article y cambia sus datos y enlaces. -->
+        <article class="project-card project-featured-card" data-category="aplicaciones">
+          <!-- Imagen real: sustituye canotips.png para actualizar la captura. -->
+          <div class="project-image">
+            <img src="assets/proyectos/canotips.png"
+              alt="Pantalla de bienvenida de CanoTips, con su logotipo, el eslogan Cuidado real para vidas felices, un perro y un gato"
+              width="906" height="1600" loading="lazy">
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span>DESARROLLO DE SOFTWARE</span><span>01</span></div>
+            <h3>CanoTips</h3>
+            <p class="project-tagline">Cuidado real para vidas felices.</p>
+            <!-- Descripción: edita este párrafo para actualizar la presentación. -->
+            <p class="project-description">CanoTips es un proyecto de aplicación orientado al cuidado y bienestar de las mascotas, con una interfaz intuitiva y un diseño amigable que busca facilitar el acceso a información relacionada con su cuidado.</p>
+            <!-- Añade etiquetas de tecnologías solo cuando estén confirmadas. -->
+            <div class="project-links">
+              <!-- Repositorio: cambia href si la dirección del proyecto cambia. -->
+              <a class="button primary" href="https://github.com/arieljr1005-png/CanoTips" target="_blank" rel="noopener noreferrer">
+                <svg class="github-icon" viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.56 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.63 0c2.15-1.46 3.1-1.15 3.1-1.15.61 1.55.23 2.7.11 2.98.73.79 1.16 1.79 1.16 3.02 0 4.32-2.63 5.28-5.14 5.56.4.35.76 1.03.76 2.08v3.1c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z"/></svg>
+                Ver repositorio <span aria-hidden="true">↗</span>
+              </a>
+              <!-- Añade un enlace a una demo únicamente cuando tengas una URL funcional. -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="certificados" class="section education-section">
+      <div class="container reveal">
+        <div class="section-heading habilidades-heading">
+          <div>
+            <p class="eyebrow">04 / CERTIFICADOS & CURSOS</p>
+            <h2>Seguir aprendiendo.<br><span class="serif">Siempre.</span></h2>
+          </div>
+          <p class="habilidades-descripcion">Cada curso es una nueva perspectiva.<br>Mi formación en tecnología, redes e inteligencia artificial.</p>
+        </div>
+        <div class="cert-grid">
+          <!-- U1 y U2 usan sus imágenes originales y copias PDF; las vistas previas Cisco provienen de sus PDF. -->
+          <article class="certificate"><img src="assets/certificados/Certificado%20U1.png"
+              alt="Certificado U1: AWS - Generación de Infraestructura con Inteligencia Artificial Generativa" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CERTIFICADO U1 · CHARLA AWS</span>
+              <h3>AWS - Generación de Infraestructura con Inteligencia Artificial Generativa</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 12 de junio de 2025</p>
+              <a href="assets/certificados/Certificado%20U1.pdf" data-document="assets/certificados/Certificado%20U1.pdf"
+                data-document-label="Certificado U1 de AWS" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/Certificado%20U2.png"
+              alt="Certificado U2: Crea tu primera aplicación con Gen AI en AWS" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CERTIFICADO U2 · WORKSHOP AWS</span>
+              <h3>Crea tu primera aplicación con Gen AI en AWS</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 13 de junio de 2025</p>
+              <a href="assets/certificados/Certificado%20U2.pdf" data-document="assets/certificados/Certificado%20U2.pdf"
+                data-document-label="Certificado U2 de AWS" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/exploracion-vista-previa.png"
+              alt="Certificado de Exploración de redes con Cisco Packet Tracer" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CISCO NETWORKING ACADEMY</span>
+              <h3>Exploración de redes con Cisco Packet Tracer</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 7 de junio de 2026</p>
+              <a href="assets/certificados/Exploracion.pdf" data-document="assets/certificados/Exploracion.pdf"
+                data-document-label="Certificado de Exploración de redes con Cisco Packet Tracer" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/ciencia-datos-vista-previa.png"
+              alt="Certificado de Introducción a la Ciencia de Datos" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CISCO NETWORKING ACADEMY</span>
+              <h3>Introducción a la Ciencia de Datos</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 10 de julio de 2026</p>
+              <a href="assets/certificados/Introduccion-Ciencia%20de%20Datos.pdf" data-document="assets/certificados/Introduccion-Ciencia%20de%20Datos.pdf"
+                data-document-label="Certificado de Introducción a la Ciencia de Datos" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/packet-tracer-vista-previa.png"
+              alt="Certificado de Introducción a Cisco Packet Tracer" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CISCO NETWORKING ACADEMY</span>
+              <h3>Introducción a Cisco Packet Tracer</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 4 de junio de 2026</p>
+              <a href="assets/certificados/Introduccion-Cisco%20Packet.pdf" data-document="assets/certificados/Introduccion-Cisco%20Packet.pdf"
+                data-document-label="Certificado de Introducción a Cisco Packet Tracer" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/ciberseguridad-vista-previa.png"
+              alt="Certificado de Introducción a Ciberseguridad" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CISCO NETWORKING ACADEMY</span>
+              <h3>Introducción a Ciberseguridad</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 23 de julio de 2026</p>
+              <a href="assets/certificados/Introduccion-Cisco.pdf" data-document="assets/certificados/Introduccion-Cisco.pdf"
+                data-document-label="Certificado de Introducción a Ciberseguridad" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="certificate"><img src="assets/certificados/internet-cosas-vista-previa.png"
+              alt="Certificado de Introducción al Internet de las Cosas y Transformación Digital" width="480" height="300" loading="lazy">
+            <div class="certificate-body"><span class="example-badge">CISCO NETWORKING ACADEMY</span>
+              <h3>Introducción al Internet de las Cosas y Transformación Digital</h3>
+              <p>Universidad Católica Santiago de Guayaquil · 23 de julio de 2026</p>
+              <a href="assets/certificados/Introduccion-Internet.pdf" data-document="assets/certificados/Introduccion-Internet.pdf"
+                data-document-label="Certificado de Introducción al Internet de las Cosas y Transformación Digital" target="_blank" rel="noopener noreferrer">Ver certificado <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="section container reveal">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">05 / CONECTEMOS</p>
+          <h2>Las buenas ideas<br>empiezan con un <span class="serif">saludo.</span></h2>
+          <p>¿Tienes un proyecto, una oportunidad o algo que compartir?<br>Me encantaria leerte y poder conversar.</p><a
+            class="contact-email" href="mailto:tu.correo@example.com">arieljr1005@outlook.es <span
+              aria-hidden="true">↗</span></a>
+          <button class="copy-button" id="copy-email" data-email="tu.correo@example.com">Copiar correo <span
+              aria-hidden="true">⧉</span></button><span id="copy-status" class="copy-status" role="status"></span>
+        </div>
+        <div class="contact-socials"><span>ENCUÉNTRAME EN</span><a href="https://github.com/" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a><small>Enlaces de ejemplo: añade tus perfiles.</small></div>
+      </div>
+    </section>
+  </main>
+  <footer class="container footer"><a class="brand" href="#inicio" aria-label="Volver al inicio">AM-21<span>.</span></a>
+    <p>© <span id="year">2026</span> Jimmy Ariel Morán Quinde.</p><a href="#inicio">Volver arriba
+      ↑</a>
+  </footer>
+  <dialog id="notice-dialog" aria-labelledby="notice-title">
+    <div class="dialog-content">
+      <button class="icon-button dialog-close" aria-label="Cerrar aviso">×</button>
+      <p class="eyebrow">UN DETALLE POR COMPLETAR</p>
+      <h2 id="notice-title">Archivo pendiente</h2>
+      <p id="notice-message"></p>
+      <button class="button primary dialog-close">Entendido</button>
+    </div>
+  </dialog>
+  <noscript>
+    <p class="noscript">Puedes recorrer el portafolio sin JavaScript. Actívalo para usar filtros, tema y avisos de
+      archivos pendientes.</p>
+  </noscript>
+</body>
+
+</html>
